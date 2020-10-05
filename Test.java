@@ -8,7 +8,7 @@ public class Test {
 }
 
 class Lexical {
-	public static void AnalyzeProgram (String sourceFile, String targetFile) throws IOException{
+	public static void AnalyzeProgram (String sourceFile) throws IOException{
 		char[] buf = new char[1024];
 		buf = Reader.ReadFileToCharArray(sourceFile).toCharArray();
 		int i=0;
