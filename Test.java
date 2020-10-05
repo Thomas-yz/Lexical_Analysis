@@ -1,7 +1,7 @@
 import java.io.*;
 
 public class Test {
-	public static void main(String args[]) throws IOException{
+	public static void main(String[] args) throws IOException{
 		Lexical.AnalyzeProgram(args[0]);
 		return;
 	}
